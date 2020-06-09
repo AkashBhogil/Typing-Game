@@ -1,0 +1,110 @@
+
+div
+{
+	display: block;
+}
+.heading
+{
+	overflow: auto;
+	display: block;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background: #B24592;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 	background-size: cover;
+}
+
+h1
+{
+	text-align: center;
+	display: block;
+	color: #ffffff;
+	margin: 0px;
+	padding: 20px;
+
+
+}
+.container
+{
+	width: 100%;
+	text-align: center;
+}
+
+.box
+{
+
+text-align: center;
+margin: 40px auto;
+display: inline-block;
+background: #B24592;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F15F79, #B24592);
+border-radius: 10px;
+
+
+
+}
+
+#boxhead
+{
+	text-align: center;
+
+}
+
+.menu
+{
+	height: 40px;
+	text-align: center;
+	width: 100%;
+background: #f46b45;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.menuButton
+{
+	height: 100%;
+	border-radius: 5px;
+	
+	border: none;
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.menuButton:hover
+{
+	opacity: 0.8;
+	outline: 2px solid white;
+}
+
+.menuScoreButton
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 100%;
+	border-radius: 5px;
+	
+	border: none;
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	background-color: transparent;
+}
+
+#correct
+{
+	color: green;
+}
+#wrong
+{
+	color: red;
+}
